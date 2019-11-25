@@ -1,5 +1,4 @@
-
-
+部署环境为openstack场景，因此取消虚拟机安全组或者tcp、udp端口全部开通，同时存在浮动IP问题，所以存在praviteip和publicip的问题
 
 
 ccdeMacBook-Pro:k8s root# tree
