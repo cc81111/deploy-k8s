@@ -1,0 +1,35 @@
+ccdeMacBook-Pro:k8s root# tree
+.
+├── 1-ssh-copy-id.sh
+├── 2-mkdir_work_path.sh
+├── 3-k8s_deploy_cert.sh
+├── 4-k8s_deploy_etcd.sh
+├── 5-k8s_deploy_docker.sh
+├── 6-k8s_deploy_flannel.sh
+├── 7_k8s_deploy_master.sh
+├── 8_k8s_deploy_node.sh
+├── allnode-pubip
+├── bin
+│   └── binfile.yunpan
+├── cfg
+│   ├── define_flannel_network.sh
+│   ├── deploy_docker.sh
+│   ├── deploy_etcd.sh
+│   ├── deploy_flannel.sh
+│   ├── deploy_kube-apiserver.sh
+│   ├── deploy_kube-controller-manager.sh
+│   ├── deploy_kube-proxy.sh
+│   ├── deploy_kube-scheduler.sh
+│   ├── deploy_kubeconfig.sh
+│   ├── deploy_kubelet-bootstrap.sh
+│   ├── deploy_kubelet.sh
+│   ├── etcd+k8s_cert.sh
+│   ├── scp_cert.sh
+│   └── scp_kubeconfig.sh
+├── k8s
+├── master-praviteip.list
+├── master-publicip.list
+├── node-praviteip.list
+├── node-publicip.list
+└── readme
+
